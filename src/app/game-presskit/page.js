@@ -45,18 +45,24 @@ export default function GamePressKit() {
       {/* Add downloadable images, trailers, or other media here */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div>
-          <img
+          <Image
             src="/3.png" // You can include a preview of the game image here
             alt="Winnie the Pooh: Beyond the Hundred Acre"
             className="w-full rounded-lg"
+            width={600} // Set an appropriate width
+            height={338} // Set an appropriate height
+            priority
           />
         </div>
         <div>
           {/* Add another image or asset if necessary */}
-          <img
+          <Image
             src="/4.png" // Replace with actual screenshot or press material
             alt="Game Screenshot"
             className="w-full rounded-lg"
+            width={600} // Set an appropriate width
+            height={338} // Set an appropriate height
+            priority
           />
         </div>
       </div>
