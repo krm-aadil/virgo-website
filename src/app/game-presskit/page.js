@@ -72,7 +72,7 @@ export default function GamePressKit() {
     target="_blank"  // Ensures the link opens in a new tab
     rel="noopener noreferrer" // Security best practice for opening links in new tab
   >
-    View Press Release on Google Drive
+    View on Gdrive
   </a>
 </div>
 
