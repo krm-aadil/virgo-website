@@ -25,7 +25,7 @@ export default function Home() {
           height={75}  // Adjust height as needed
           priority
         />
-        <h1 className="text-4xl font-semibold text-center sm:text-left">Virgo Interactive</h1>
+        <h1 className="text-4xl font-bold text-center sm:text-left">Virgo Interactive</h1>
         <p className="text-lg text-center sm:text-left max-w-2xl">
           We create immersive experiences through games, websites, and apps. Stay tuned for our upcoming projects!
         </p>
@@ -77,7 +77,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/images/instagram-icon.svg" // Replace with actual path for Instagram icon
+            src="/instagram-logo-instagram-social-media-icon-free-png.webp"
             alt="Instagram icon"
             width={20}
             height={20}
@@ -92,7 +92,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/images/twitter-icon.svg" // Replace with actual path for Twitter icon
+            src="/Logo_of_Twitter.svg.png" // Replace with actual path for Twitter icon
             alt="Twitter icon"
             width={20}
             height={20}
