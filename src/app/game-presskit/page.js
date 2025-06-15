@@ -6,20 +6,17 @@ import Image from "next/image";
 
 export default function GamePressKit() {
   return (
-  
     <div className="p-8">
-
-        <header className="flex flex-col items-center gap-4 sm:items-start">
-            {/* Logo Image */}
-            <Image
-              src="/VIRGO-LOGO.png"  // Path to your logo image
-              alt="Virgo Interactive Logo"
-              width={75}  // Adjust width as needed
-              height={75}  // Adjust height as needed
-              priority
-            />
-          
-          </header>
+      <header className="flex flex-col items-center gap-4 sm:items-start">
+        {/* Logo Image */}
+        <Image
+          src="/VIRGO-LOGO.png"  // Path to your logo image
+          alt="Virgo Interactive Logo"
+          width={75}  // Adjust width as needed
+          height={75}  // Adjust height as needed
+          priority
+        />
+      </header>
 
       {/* Back Button to Home */}
       <Link
@@ -69,14 +66,16 @@ export default function GamePressKit() {
       
       {/* Optionally add a download link or PDF */}
       <div className="mt-6">
-        <a
-          href="/press/press-release.pdf" // Replace with the actual file path
-          className="bg-blue-600 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-700 transition"
-          download
-        >
-          Download Press Release
-        </a>
-      </div>
+  <a
+    href="https://drive.google.com/drive/folders/1cXNelvNhq7R6aBDl0Y3PJjur-T-tdw2C?usp=sharing" // Your Google Drive folder link
+    className="bg-blue-600 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-700 transition"
+    target="_blank"  // Ensures the link opens in a new tab
+    rel="noopener noreferrer" // Security best practice for opening links in new tab
+  >
+    View Press Release on Google Drive
+  </a>
+</div>
+
     </div>
   );
 }
